@@ -10,4 +10,4 @@ Caputure various widths for a list of urls and then moves that list of urls to t
 
 1. add a `urls.txt` file to the `screencapture-machine` directory
 2. cd to `screencapture-machine`
-3. run `. screencap.sh`
+3. run `. screencap.sh`'

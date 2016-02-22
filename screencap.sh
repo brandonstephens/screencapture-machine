@@ -13,6 +13,9 @@ fi
 START=$(date +"%s")
 START_DIR=$CAPTURE_DIR/`date '+%Y-%m-%d_%H.%M.%S'`
 
+# append a line return to make sure last line is processed
+sed -i '' -e '$a\' $LOCAL_ROOT/urls.txt
+
 mkdir $START_DIR
 cd $START_DIR
 
